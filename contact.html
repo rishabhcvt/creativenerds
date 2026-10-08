@@ -604,12 +604,10 @@
 								result.success === true
 							) {
 
-								if (formMessage) {
+								{
 
-									formMessage.innerHTML =
-										'<div class="alert alert-success">' +
-										'Thank you! Your message has been sent successfully.' +
-										'</div>';
+									// Redirect to Thank You page
+									window.location.href = "/thank-you.html";
 
 								}
 
